@@ -51,6 +51,8 @@ IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_321\bin\java.exe" ECHO Uninstalli
 IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_331\bin\java.exe" ECHO Uninstalling Java 8u331...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F32180331F0} /Q
 IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_333\bin\java.exe" ECHO Uninstalling Java 8u333...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F32180333F0} /Q
 IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_341\bin\java.exe" ECHO Uninstalling Java 8u341...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F32180341F0} /Q
+IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_351\bin\java.exe" ECHO Uninstalling Java 8u351...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F32180351F0} /Q
+IF EXIST "C:\Program Files (x86)\Java\jre1.8.0_361\bin\java.exe" ECHO Uninstalling Java 8u361...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F32180361F0} /Q
 
 
 IF NOT EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_11\bin\java.exe" ECHO Uninstalling Java 8u11...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F83218011F0} /Q
@@ -136,3 +138,5 @@ IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_321\b
 IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_331\bin\java.exe" ECHO Uninstalling Java 8u331...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180331F0} /Q
 IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_333\bin\java.exe" ECHO Uninstalling Java 8u333...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180333F0} /Q
 IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_341\bin\java.exe" ECHO Uninstalling Java 8u341...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180341F0} /Q
+IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_351\bin\java.exe" ECHO Uninstalling Java 8u351...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180351F0} /Q
+IF EXIST "C:\Program Files (x86)" IF EXIST "C:\Program Files\Java\jre1.8.0_361\bin\java.exe" ECHO Uninstalling Java 8u361...&MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180361F0} /Q
